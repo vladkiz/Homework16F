@@ -1,0 +1,47 @@
+@import "variables";
+$dark: $Haiti;
+$font-family-base: "Open Sans", sans-serif;
+$input-font-family: "Open Sans", sans-serif;
+$navbar-brand-font-size: 1.45rem;
+$navbar-nav-link-padding-x: 0.25rem;
+$nav-link-padding-y: 1.438rem;
+$navbar-padding-y: 0;
+$navbar-dark-color: $white;
+$navbar-dark-hover-color: $white;
+$font-size-base: 0.8125rem;
+$navbar-brand-margin-end: 0;
+$h1-font-size: 3.875rem;
+$h2-font-size: 1.75rem;
+$h3-font-size: 1.25rem;
+$h4-font-size: 1.125rem;
+$h5-font-size: 1rem;
+$h6-font-size: 1.5rem;
+$primary: $white;
+
+$Niagara: #0eb493;
+$success: $Niagara;
+
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1170px,
+  xxl: 1320px,
+) !default;
+
+$btn-border-radius: 0.3125rem;
+$btn-font-size: 14px;
+$input-btn-padding-x: 0;
+
+@mixin flexbox($df, $fd, $jc, $ai) {
+  display: $df;
+  flex-direction: $fd;
+  justify-content: $jc;
+  align-items: $ai;
+}
+@mixin beforeAfter($content, $w, $h, $bg) {
+  content: $content;
+  width: $w;
+  height: $h;
+  background: $bg;
+}
